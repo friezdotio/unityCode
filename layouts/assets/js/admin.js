@@ -1,0 +1,1 @@
+tinyMCE.execCommand('mceAddControl', false, 'description');

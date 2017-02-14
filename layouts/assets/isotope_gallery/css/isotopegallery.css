@@ -1,0 +1,206 @@
+
+
+/* ISOTOPE MENU
+================================================== */
+.isotopeMenu{
+	display: block;
+	text-align: right;
+	list-style-type: none;
+}
+.isotopeMenu > li{
+	display: inline-block;
+	margin: 5px;
+}
+.isotopeMenu > li > a{	
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 15px;		
+	line-height: 20px;	
+	display: block;		
+	outline: none;
+	font-weight: 300;		
+	font-size: 12px;
+	text-transform: uppercase;		
+}
+/* END ISOTOPE MENU
+================================================== */
+
+
+/* ISOTOPE CONTAINER
+================================================== */
+.isotope_top_space{
+	height: 5px;
+}
+.isotopeContainer{
+	position: relative;
+}
+.isotopeItem{
+	overflow: hidden;
+	position: relative;
+}
+.isotopeItemOverlay{
+	position: absolute;
+	display: none;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.isotopeItemCaption{
+	display: none;
+}
+
+/* beacon */
+.rx_isotope_beacon{
+	position: absolute;
+	width: 96px;
+	height: 96px;
+}
+.genericBeaconIsotope{
+	position: absolute;
+	cursor: pointer;
+	margin: auto;
+	width: 96px;
+	height: 96px;	
+}
+.beaconCircle1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 96px;
+	height: 96px;
+	border-radius: 48px;
+}
+.beaconCircle2{
+	position: absolute;
+	left: 12px;
+	top: 12px;	
+	width: 72px;
+	height: 72px;
+	border-radius: 36px;	
+}
+.isotopeItemOpenLink, img.isotopeItemOpenLink, .isotopeThumb img.isotopeThumb{
+	margin: 0;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	border-radius: 0px 0px 0px 0px;
+}
+/* end beacon */
+
+/* END ISOTOPE CONTAINER
+================================================== */
+
+
+
+/* iGallery lightbox
+================================================== */
+#sk_igallery_lightbox{
+	width: 100%;
+	height: 2px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: #000;
+	background: rgba(0,0,0,0.90);
+	z-index: 999999 !important;
+	overflow: hidden;
+}
+#isecure_screen{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 10000;
+}
+.iGalleryPreloader{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+/* lightbox caption - style caption here
+================================================== */
+#ilghtb_caption{
+	position: absolute;
+	width: 100%;
+	top: 15px;
+	left: 0px;
+	color: #CCC;
+	text-align: center;
+	font-size: 14px;
+	font-family: Tahoma, Geneva, sans-serif;	
+}
+#ilghtb_img{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+#ilghtb_controls{
+	position: absolute;
+	bottom: 15px;
+	left: 0px;		
+}
+a.genericBoxButtonLightbox{
+	width: 27px;
+	height: 27px;
+	display: block;
+	outline: none;
+}
+.ifloatRight{
+	float: right;
+}
+.iLightboxDisabledButton{
+	cursor: default;
+}
+
+
+
+
+
+
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** END Isotope Filtering ****/
